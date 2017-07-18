@@ -2,7 +2,7 @@
 
 ## Harper Lee
 
-![Harper Lee] (https://i.vimeocdn.com/video/512881564.jpg?mw=1300&mh=732)
+![Harper Lee](https://i.vimeocdn.com/video/512881564.jpg?mw=1300&mh=732)
 
 source: https://www.dev-metal.com/harper-reed-the-magic-and-mystery-of-big-data-30min-video-from-webstock15/
 
@@ -33,5 +33,3 @@ For the foundraising platform they used **Jekyll** to generate html staic pages.
 *There is a lot to be said about **simplicity**.*
 
 source: http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/
-
-
