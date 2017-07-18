@@ -11,24 +11,24 @@
 
 ## Suggested reads:
 
-* https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/
+* [https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/)
 
 ## Where to start
 
-* https://www.staticgen.com/
-* https://jamstack.org/examples/
+* [https://www.staticgen.com/](https://www.staticgen.com/)
+* [https://jamstack.org/examples/](https://jamstack.org/examples/)
 
 ## Let's try one of them
-* https://middlemanapp.com/
+* [https://middlemanapp.com/](https://middlemanapp.com/)
 
 ## Headless CMS
 
-* https://headlesscms.org/
+* [https://headlesscms.org/](https://headlesscms.org/)
   A List of Content Management Systems for JAMstack Sites
   
 * open source solution:
-  https://www.netlifycms.org/
+  [https://www.netlifycms.org/](https://www.netlifycms.org/)
   ![Netlifycms](https://www.netlify.com/img/blog/done-1.png)
   
 * paid solution:
-  https://www.contentful.com/
+  [https://www.contentful.com/](https://www.contentful.com/)
