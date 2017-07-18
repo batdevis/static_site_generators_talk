@@ -1,5 +1,3 @@
-# Static Sites Generation
-
 ## Harper Lee
 
 ![Harper Lee](https://i.vimeocdn.com/video/512881564.jpg?mw=1300&mh=732)
