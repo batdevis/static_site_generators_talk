@@ -27,6 +27,5 @@ The results:
 
 ### Reads
 
-* http://dannychapman.com/static-site/
-* http://dannychapman.com/work/sxsw/index.html
-
+* [http://dannychapman.com/static-site/](http://dannychapman.com/static-site/)
+* [http://dannychapman.com/work/sxsw/index.html](http://dannychapman.com/work/sxsw/index.html)
