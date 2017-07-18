@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Static Sites Generation</title>
+    <meta name="description" content="A lightning talk about the evolution of websites">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+				  <h1>Static Sites Generation</h1>
+				  <h2>A lightning talk about the evolution of websites</h2>
+				  <p>&nbsp;</p>
+ 				  <p>&nbsp;</p>
+				  <p>by <a href="http://github.com/batdevis"><i>batdevis</i></a></h2>
+        	</textarea>
+				</section>
+
+				<section><!--obama-2012-->
+				  <section>
+				    <h1>Harper Reed</h1>
+            <img src="https://i.vimeocdn.com/video/512881564.jpg?mw=1300&mh=732" title="Harper Reed" width="800" target="_blank"/>
+
+            <p><a href="https://www.dev-metal.com/harper-reed-the-magic-and-mystery-of-big-data-30min-video-from-webstock15/">source</a></p>
+				  </section>
+
+				  <section>
+            <h2>Obama 2012 re-election campaign</h2>
+
+            <img src="https://cdn.theatlantic.com/static/mt/assets/science/techteam.jpg" title="the team" width="800" />
+            <p><a href="https://www.theatlantic.com/technology/archive/2012/11/when-the-nerds-go-marching-in/265325/" target="_blank">source</a></p>
+				  </section>
+
+				  <section>
+            <img src="http://hertling.wpengine.com/wp-content/uploads/2013/07/AWSOFA.png" title="Obama For America AWS architecture" width="70%" />
+            <p>Obama For America AWS architecture</p>
+
+            <p><a href="http://www.williamhertling.com/2013/07/printable-obama-for-america-aws-architecture" target="_blank">source</a></p>
+				  </section>
+
+				  <section>
+            <h3>Fundraising Platform</h3>
+            <p>For the foundraising platform they used <b>Jekyll</b> to generate html staic pages.</p>
+
+            <p><i>
+              By using Jekyll we managed to <b>avoid the complexity</b> that comes with most CMS (databases, server configuration)<br>
+              and instead <b>focus</b> on things like optimizing the UI and providing a better user experience.<br>
+              To work in this environment the most a frontend engineer had to learn was the Liquid template language that Jekyll uses and boy is that <b>simple</b>.<br>
+              We <b>didn't have to work with Devops to deploy</b> because all we had to do was overwrite files on S3 and invalidate a URL on our CDN.<br>
+              There is a lot to be said about <b>simplicity</b>.
+            </i></p>
+
+            <a href="http://kylerush.net/blog/meet-the-obama-campaigns-250-million-fundraising-platform/" target="_blank">source</a>
+				  </section>
+		    </section><!--/obama-2012-->
+
+		    <section>
+  		    <section>
+            <h2>Static Sites generation</h2>
+            <h3>Advantages</h3>
+            <ul>
+              <li>avoid the complexity of CMS configuration</li>
+              <li>simplify deploy process</li>
+              <li>increase security</li>
+              <li>increase page speed</li>
+              <li>decrease hosting costs</li>
+              <li>increase scalability</li>
+            </ul>
+  			  </section>
+
+  			  <section><!--ssg-->
+            <h3>Suggested reads</h3>
+            <ul>
+              <li><a href="https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/" target="blank">https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/</a></li>
+            </ul>
+  			  </section>
+
+  			  <section>
+            <h3>Where to start</h3>
+            <ul>
+              <li><a href="https://www.staticgen.com/" target="_blank">https://www.staticgen.com</a></li>
+              <li><a href="https://jamstack.org/examples/" target="_blank">https://jamstack.org/examples/</a></li>
+            </ul>
+  			  </section>
+
+  			  <section>
+            <h3>Let's try one of them</h3>
+            <ul>
+              <li><a href="https://middlemanapp.com/" target="_blank">https://middlemanapp.com/</a></li>
+            </ul>
+  			  </section>
+
+  			  <section>
+            <h3>Headless CMS</h3>
+            <ul>
+              <li>
+                <a href="https://headlesscms.org/" target="_blank">https://headlesscms.org/</a><br>
+                A List of Content Management Systems for JAMstack Sites
+              </li>
+              <li>
+                <a href="https://www.netlifycms.org/" target="_blank">https://www.netlifycms.org/</a><br>
+                open source solution<br>
+                <img src="https://www.netlify.com/img/blog/done-1.png" width="400" title="netlifycms" />
+              </li>
+              <li>
+                <a href="https://www.contentful.com/" target="_blank">https://www.contentful.com/</a><br>
+                paid solution
+              </li>
+            </ul>
+  			  </section>
+
+  		  </section><!--/ssg-->
+
+        <section><!--dead-->
+          <section>
+            <h2>Dynamic websites are dead</h2>
+          </section>
+
+          <section>
+            <h3>Once upon a time</h3>
+            <p>Once upon a time, in order to catch new customers, we said them:</p>
+            <ul>
+              <li>"We make it dynamic so you can update it as you want"</li>
+              <li>"We make it dynamic so you can insert the news every day"</li>
+            </ul>
+          </section>
+
+          <section>
+            <h4>The results</h4>
+            <ul>
+              <li>Horrible pages formatted with bold text, capital letters and no newlines.</li>
+              <li>Lot of sites with two years old news</li>
+              <li>Lot of sites with the only news "Welcome to our brand new site!"</li>
+              <li>Lot of email in your inbox, tagged as "unpaid-work":<br>
+                "Here's a word doc with the update of the story of the company, could you publish it?<br>
+                I've lost my password, and it's a job of few minutes for you"
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Today</h3>
+            <ul>
+              <li>Sites with news was a failure: companies write in their social profiles</li>
+              <li>Texts have to be SEO friendly, so the client does not have to write them.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Now</h3>
+            <p><b>Do we really need a dynamic website?</b></p>
+          </section>
+
+          <section>
+            <h3>Reads</h3>
+            <ul>
+              <li><a href="http://dannychapman.com/static-site/" target="_blank">http://dannychapman.com/static-site/</a></li>
+              <li><a href="http://dannychapman.com/work/sxsw/index.html" target="_blank">http://dannychapman.com/work/sxsw/index.html</a></li>
+            </ul>
+          </section>
+
+        </section><!--/dead-->
+
+        <section><!--final-->
+          <h3>this slides:</h3>
+          <ul>
+            <li><a href="#" target="_blank">I will slack you...</a></li>
+          </ul>
+        </section><!--/final-->
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				],
+				width: "100%",
+	      height: "100%",
+	      margin: 0,
+	      minScale: 1,
+	      maxScale: 1
+			});
+		</script>
+	</body>
+</html>
